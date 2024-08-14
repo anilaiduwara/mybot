@@ -1,12 +1,12 @@
 {
-  "name": "Blue-wide-md",
+  "name": "HORIZON-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Blue-wide-md",
-    "stop": "pm2 stop Blue-wide-md",
-    "restart": "pm2 restart Blue-wide-md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name HORIZON-MD",
+    "stop": "pm2 stop HORIZON-MD",
+    "restart": "pm2 restart HORIZON-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
