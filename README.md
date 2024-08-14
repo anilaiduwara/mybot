@@ -68,7 +68,7 @@ Please use this bot responsibly and in compliance with WhatsApp's terms of servi
 
 For more information, Contact US.
 
-<p align="center"><a href="mailto:sithijashavishan1@gmail.com"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsdL6Vz3SvYLIeIPpZOMa1Yf1_TBtFM1hxpjCmkRfSXA&s" /></a></p>
+<p align="center"><a href="mailto:anilalochana0@gmail.com"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsdL6Vz3SvYLIeIPpZOMa1Yf1_TBtFM1hxpjCmkRfSXA&s" /></a></p>
 
 <br>
 ## HAVE A GREAT JOURNEY
