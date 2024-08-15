@@ -40,6 +40,10 @@ HORIZON-MD is an innovative WhatsApp bot designed to enhance your messaging expe
 
 ## Helpers
 
+## special thanks
+ - prabhath-md 
+
+
 
 A special thanks to our contributors who have made this bot possible:
 
