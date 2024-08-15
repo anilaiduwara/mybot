@@ -2,8 +2,8 @@
      
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=BLUE-WIDE+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
- <div align="center" class= "main"> 
-  <img src="https://www.canva.com/design/DAGN6cpHQlk/b03z0UzalyOfUpnnSeQwUA/edit?layoutQuery=banner" width="400" height="400"/>
+<a href="https://ibb.co/84qQm44"><img src="https://i.ibb.co/VpRkLpp/Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner.jpg" alt="Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner" border="0"></a>
+ 
   <h1>BLUE-WIDE-MD</h>
 
 ## Setup
