@@ -4,7 +4,7 @@
 
 <a href="https://ibb.co/84qQm44"><img src="https://i.ibb.co/VpRkLpp/Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner.jpg" alt="Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner" border="0"></a>
  
-  <h1>BLUE-WIDE-MD</h>
+  <h1>BLUE-LEAUGE-MD</h>
 
 ## Setup
 
