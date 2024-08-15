@@ -1,4 +1,4 @@
-[ { "src": "/file/6a3d8c013da27c90d672a.mp4" } ]
+[ { "src": "https://telegra.ph/file/6a3d8c013da27c90d672a.mp4" } ]
 
 <div align="center">
      
