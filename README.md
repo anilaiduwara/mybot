@@ -1,6 +1,6 @@
 <div align="center">
      
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=BLUE-WIDE+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=BLUE-LEAUGE+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
 <a href="https://ibb.co/84qQm44"><img src="https://i.ibb.co/VpRkLpp/Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner.jpg" alt="Blue-Yellow-Futuristic-Virtual-Technology-Blog-Banner" border="0"></a>
  
