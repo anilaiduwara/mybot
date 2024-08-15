@@ -1,16 +1,16 @@
 <div align="center">
      
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=HORIZON+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=BLUE-WIDE+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
  <div align="center" class= "main"> 
   <img src="https://telegra.ph/file/088eee81dd2454e580647.jpg" width="400" height="400"/>
-  <h1>𝑯𝑶𝑹𝑰𝒁𝑶𝑵-𝑴𝑫</h>
+  <h1>BLUE-WIDE-MD</h>
 
 ## Setup
 
 #### Fork
 
-<a href="https://github.com/anilaiduwara/HORIZON-MD/fork"><img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="NIMA" border="2" width="155" height="46" ></a>
+<a href="https://github.com/anilaiduwara/BLUE-WIDE-MD/fork"><img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="NIMA" border="2" width="155" height="46" ></a>
 
 
 #### DEPLOY TO HEROKU
@@ -21,7 +21,7 @@
 
 2.Deploy.
     <br>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/shavibota/HORIZON-MD"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45" alt="Horizon heroku deploy"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/anilaiduwara/BLUE-WIDE-MD"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45" alt="BLUE-WIDE heroku deploy"/></a></p>
 
 #### DEPLOY TO REPLIT
 
@@ -31,11 +31,11 @@
 
 2.Deploy
     <br>
-<p align="center"><a href="https://repl.it/github/shavibota/HORIZON-MD"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://repl.it/github/anilaiduwara/BLUE-WIDE-MD"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
 
 ## About The Bot
 
-HORIZON-MD is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
+BLUE-WIDE is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
 
 
 ## Features
