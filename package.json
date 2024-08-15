@@ -1,12 +1,12 @@
 {
-  "name": "BLUE-LEAUGE-MD",
+  "name": "BLACK-LEAGUE-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name BLUE-LEAUGE-MD",
-    "stop": "pm2 stop BLUE-LEAUGE-MD",
-    "restart": "pm2 restart BLUE-LEAUGE-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name BLACK-LEAGUE-MD",
+    "stop": "pm2 stop BLACK-LEAGUE-MD",
+    "restart": "pm2 restart BLACK-LEAGUE-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
