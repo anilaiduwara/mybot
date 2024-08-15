@@ -10,7 +10,7 @@
 
 #### Fork
 
-<a href="https://github.com/anilaiduwara/BLUE-WIDE-MD/fork"><img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="NIMA" border="2" width="155" height="46" ></a>
+<a href="https://github.com/anilaiduwara/BLACK-LEAGUE-MD/fork"><img src="https://raw.githubusercontent.com/ismartcoding/plain-app/main/assets/get-it-on-github.png" alt="NIMA" border="2" width="155" height="46" ></a>
 
 
 #### DEPLOY TO HEROKU
@@ -21,7 +21,7 @@
 
 2.Deploy.
     <br>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/anilaiduwara/BLUE-WIDE-MD"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45" alt="BLUE-WIDE heroku deploy"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/anilaiduwara/BLACK-LEAGUE-MD"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45" alt="BLUE-WIDE heroku deploy"/></a></p>
 
 #### DEPLOY TO REPLIT
 
@@ -31,11 +31,11 @@
 
 2.Deploy
     <br>
-<p align="center"><a href="https://repl.it/github/anilaiduwara/BLUE-WIDE-MD"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://repl.it/github/anilaiduwara/BLACK-LEAGUE-MD"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
 
 ## About The Bot
 
-BLUE-WIDE is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
+BLACK-LEAGUE-MD is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
 
 
 ## Features
@@ -72,7 +72,7 @@ Please use this bot responsibly and in compliance with WhatsApp's terms of servi
 ## Gallery
 ```
 !Bot in Action
-*HORIZON-MD enhancing the chat experience.*
+*BLACK-LEAGUE-MD enhancing the chat experience.*
 ```
 
 ##  
