@@ -3,7 +3,7 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=BLUE-WIDE+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
  <div align="center" class= "main"> 
-  <img src="https://telegra.ph/file/088eee81dd2454e580647.jpg" width="400" height="400"/>
+  <img src="https://www.canva.com/design/DAGN6cpHQlk/b03z0UzalyOfUpnnSeQwUA/edit?layoutQuery=banner" width="400" height="400"/>
   <h1>BLUE-WIDE-MD</h>
 
 ## Setup
