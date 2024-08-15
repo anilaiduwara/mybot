@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `HORIZON-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/ZKjzjwr.jpeg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/088eee81dd2454e580647.jpg` }, caption: up })
 
 }
 })
