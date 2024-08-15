@@ -1,5 +1,5 @@
  <div align="center" class= "main"> 
-  <img src="https://i.imgur.com/ZKjzjwr.jpeg" width="400" height="400"/>
+  <img src="https://telegra.ph/Horizon-md-08-15-2" width="400" height="400"/>
   <h1>𝑯𝑶𝑹𝑰𝒁𝑶𝑵-𝑴𝑫</h1>
 
 ## Setup
