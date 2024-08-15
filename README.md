@@ -1,3 +1,7 @@
+<div align="center">
+     
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=HORIZON+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
+
  <div align="center" class= "main"> 
   <img src="https://telegra.ph/file/088eee81dd2454e580647.jpg" width="400" height="400"/>
   <h1>𝑯𝑶𝑹𝑰𝒁𝑶𝑵-𝑴𝑫</h>
