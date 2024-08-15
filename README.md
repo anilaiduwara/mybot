@@ -1,6 +1,6 @@
  <div align="center" class= "main"> 
   <img src="https://i.imgur.com/ZKjzjwr.jpeg" width="400" height="400"/>
-  <h1>𝑯𝑶𝑹𝑰𝒁𝑶𝑵-𝑴𝑫</h1>
+  <h1>𝑯𝑶𝑹𝑰𝒁𝑶𝑵</h1>
 
 ## Setup
 
