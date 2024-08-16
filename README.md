@@ -33,6 +33,17 @@
     <br>
 <p align="center"><a href="https://repl.it/github/anilaiduwara/BLACK-LEAGUE-MD"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
 
+
+## DEPLOY BY SESSION ID 
+
+
+<a href="chubby-gaye-anilalocha-9068f289.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
+
+
+<hr>
+
+<hr>
+
 ## About The Bot
 
 BLACK-LEAGUE-MD is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
