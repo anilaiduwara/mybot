@@ -40,13 +40,9 @@
 <a href="chubby-gaye-anilalocha-9068f289.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
 
-<hr>
-
-<hr>
-
 ## About The Bot
 
-BLACK-LEAGUE-MD is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no matter where you are.
+BLACK-LEAGUE-MD is an innovative WhatsApp bot designed to enhance your messaging experience. It allows for multi-device support, ensuring you stay connected no mtter where you are.
 
 
 ## Features
