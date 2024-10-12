@@ -23,7 +23,7 @@ let status = `* > Uptime:*  ${runtime(process.uptime())}
 return reply(`${status}`)
 }catch(e){
 console.log(e)
-reply(`${}`)
+reply(`${e}`)
   
 
 }
