@@ -26,7 +26,7 @@ if (commands[i].pattern && !commands[i].dontAddCommandList) {
 menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
-let mademenu = `👤*Helo ${pushname}*``
+let mademenu = `👤*Helo ${pushname}*`
 
 > *DOWNLOAD COMMANDS*
 ${menu.download}
