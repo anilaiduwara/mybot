@@ -143,7 +143,7 @@ m.react ("😶")
 
 //====================================work-type======================================= 
 if(!isOwner && config.MODE === "private") return 
-if(!isOwner && isGroup && config.MODE ==== "public") return
+if(!isOwner && isGroup && config.MODE === "public") return
 if(!isOwner && !isGroup && config.MODE === "groups")return
 
 
