@@ -1,7 +1,9 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
 const os = require("os")
+const {runtime} = require(`../lib/functions`)
 
+,
 cmd({
     pattern: "system",
     alias: ["status","botinfo"],
@@ -18,7 +20,7 @@ let status = `* > Uptime:*  ${runtime(process.uptime())}
 * > Owner:* anila lochana 
 `
 
-return reply(`${}`)
+return reply(`${status}`)
 }catch(e){
 console.log(e)
 reply(`${}`)
