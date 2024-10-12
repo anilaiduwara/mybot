@@ -61,6 +61,8 @@ await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/3f7249eb429c821
 console.log(e)
 reply(`${e}`)
 
+}
+
 
 
 })
