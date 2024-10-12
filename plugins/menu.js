@@ -17,8 +17,45 @@ download: '',
 group: '',
 owner: '',
 convert: '',
-search: ''
+search: '',
+movie: ''
 };
+
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
+let mademenu = `👤*Helo ${pushname}*``
+
+> *DOWNLOAD COMMANDS*
+${menu.download}
+
+> *MAIN COMMANDS*
+${menu.main}
+
+> *GROUP COMMANDS* 
+${menu.group}
+
+> *OWNER COMMANDS*
+${menu.owner}
+
+> *CONVERT COMMAND*
+${menu.convert}
+
+> *SEARCH COMMAND*
+${menu.search}
+
+> *MOVIE COMMAND*
+${menu.movie}
+
+🧑🏽‍💻POWERD BY ANILA LOCHANA 🧑🏽‍💻
+`
+
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+
+
+
 
 }catch(e){
 console.log(e)
