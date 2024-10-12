@@ -8,7 +8,7 @@ cmd({
     pattern: "system",
     alias: ["status","botinfo"],
     desc: "Check bot rutime,ram usage and more .",
-    react: "🎞️",
+    react: "🔆",
     category: "main",
     filename: __filename
 },
