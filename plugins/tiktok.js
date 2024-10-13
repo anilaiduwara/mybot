@@ -4,10 +4,10 @@ const {cmd , commands} = require('../command')
 cmd({
     pattern: "tiktok",
     desc: "Check tiktok search.",
-    react: "🎞️",
+    react: "🎥",
     category: "main",
     filename: __filename
-  }
+  
   if (!args[0] && !m.quoted) throw `Give the link of the video Tiktok or quote a tiktok link`
   if (!args[0].match(/tiktok/gi)) throw `Verify that the link is from TikTok`
 
