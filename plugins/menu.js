@@ -39,7 +39,7 @@ ${menu.download}
 ${menu.group}
 
 > *OWNER COMMANDS*
-${menu.owner)
+${menu.owner}
 
 > *CONVERT COMMANDS*
 ${menu.convert}
