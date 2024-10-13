@@ -1,9 +1,12 @@
-import { tiktokdl } from '@bochilteam/scraper'
-import fg from 'api-dylux'
+const config = require('../config')
+const {cmd , commands} = require('../command')
 
-let handler = async (m, { conn, text, args, usedPrefix, command }) => {
-  if (!args[0] && m.quoted && m.quoted.text) {
-    args[0] = m.quoted.text
+cmd({
+    pattern: "tiktok",
+    desc: "Check tiktok search.",
+    react: "🎞️",
+    category: "main",
+    filename: __filename
   }
   if (!args[0] && !m.quoted) throw `Give the link of the video Tiktok or quote a tiktok link`
   if (!args[0].match(/tiktok/gi)) throw `Verify that the link is from TikTok`
@@ -35,8 +38,3 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   }
 }
 
-handler.help = ['tiktok'].map(v => v + ' <url>')
-handler.tags = ['downloader']
-handler.command = /^t(t|iktok(d(own(load(er)?)?|l))?|td(own(load(er)?)?|l))$/i
-
-export default handler
