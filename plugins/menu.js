@@ -26,31 +26,32 @@ if (commands[i].pattern && !commands[i].dontAddCommandList) {
 menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
-let madeMenu = `👤*HELLO ${pushname}*`
+    
+let madeMenu =``hello ${pushname}``
 
-> *DOWNLOAD COMMANDS*
+*`MAIN COMMANDS`*
+&{menu.main}
+
+*`DOWNLOAD COMMANDS`*
 ${menu.download}
 
-> *MAIN COMMANDS*
-${menu.main}
-
-> *GROUP COMMANDS* 
+*`GROUP COMMANDS`*
 ${menu.group}
 
-> *OWNER COMMANDS*
-${menu.owner}
+*`OWNER COMMANDS`*
+${menu.owner)
 
-> *CONVERT COMMAND*
+*`CONVERT COMMANDS`*
 ${menu.convert}
 
-> *SEARCH COMMAND*
+*`SEARCH COMMANDS`*
 ${menu.search}
 
-> *MOVIE COMMAND*
+*`MOVIE COMMANDS`*
 ${menu.movie}
 
-🧑🏽‍💻POWERD BY ANILA LOCHANA 🧑🏽‍💻
-`
+
+
 
 await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/3f7249eb429c8211cbba3.jpg"},caption:madeMenu},{quoted:mek})
 
