@@ -27,14 +27,14 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
     
-let madeMenu =`*hello ${pushname}*`
-
-*`MAIN COMMANDS`*
-&{menu.main}
+let madeMenu =`*hello ${pushname}*
 
 *`DOWNLOAD COMMANDS`*
 ${menu.download}
 
+*`MAIN COMMANDS`*
+&{menu.main}
+    
 *`GROUP COMMANDS`*
 ${menu.group}
 
@@ -50,6 +50,9 @@ ${menu.search}
 *`MOVIE COMMANDS`*
 ${menu.movie}
 
+POWERD BY ANILA LOCHANA
+
+`
 
 
 
