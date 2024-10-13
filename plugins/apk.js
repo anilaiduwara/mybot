@@ -17,6 +17,7 @@ let baseUrl;
 cmd({
     pattern: "fb",
     alias: ["facebook"],
+    react: "🎥",
     desc: "download fb videos",
     category: "download",
     filename: __filename
@@ -41,6 +42,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 cmd({
     pattern: "twitter",
     alias: ["twdl"],
+    react: "🎥",
     desc: "download tw videos",
     category: "download",
     filename: __filename
@@ -66,6 +68,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 cmd({
     pattern: "gdrive",
     alias: ["googledrive"],
+    react: "📑",
     desc: "download gdrive files",
     category: "download",
     filename: __filename
@@ -87,6 +90,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 cmd({
     pattern: "mediafire",
     alias: ["mfire"],
+    react: "📑",
     desc: "download mfire files",
     category: "download",
     filename: __filename
