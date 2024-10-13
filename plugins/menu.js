@@ -27,7 +27,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
     
-let madeMenu =`*`hello ${pushname}`*`
+let madeMenu =`*hello ${pushname}*`
 
 *`MAIN COMMANDS`*
 &{menu.main}
