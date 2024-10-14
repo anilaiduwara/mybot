@@ -46,7 +46,7 @@ connectDB();
 const {readEnv} = require(`./lib/database`)
 const config = await readEnv();
 const prefix = config.PREFIX 
-/===================
+//===================
  
 console.log("Connecting BLUE-LEAUGE-MD 👨‍🏫...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
