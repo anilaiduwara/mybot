@@ -13,15 +13,9 @@ cmd({
  
  try{const startTime=Date.now();await conn.sendMessage(from,{text:'*WA MD... 📶*'});
       
- const endTime=Date.now();const ping=endTime-startTime;const speed=await speedTest({acceptLicense:true});let downloadSpeed=(speed.download.bandwidth/125000).toFixed(2);let uploadSpeed=(speed.upload.bandwidth/125000).toFixed(2);downloadSpeed=convertToReadableSize(downloadSpeed);uploadSpeed=convertToReadableSize(uploadSpeed);await conn.sendMessage(from,{text:`*Ping:* _${ping}ms_ ✈️`});setTimeout(async()=>{await conn.sendMessage(from,{text:`*Download Speed 📥:* _${downloadSpeed}_`});},700);setTimeout(async()=>{await conn.sendMessage(from,{text:`*Upload Speed 📤:* _${uploadSpeed}_`});},1400)
-     
-     
-     
-     
- }catch(e);
- {console.log(e);
-await reply(`Error fetching network speed: ${e.message}`)
-  
- }
-     
- });
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
