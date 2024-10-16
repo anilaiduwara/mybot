@@ -11,19 +11,6 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const config = await readEnv();
-//====button-tye===========
-
-  const test = async (m, Matrix) => {
-  let selectedListId;
-  const selectedButtonId = m?.message?.templateButtonReplyMessage?.selectedId;
-  const interactiveResponseMessage = m?.message?.interactiveResponseMessage;
-  if (interactiveResponseMessage) {
-    const paramsJson = interactiveResponseMessage.nativeFlowResponseMessage?.paramsJson;
-    if (paramsJson) {
-      const params = JSON.parse(paramsJson);
-      selectedListId = params.id;
-
-
 let menu ={
 main: '',
 download: '',
@@ -74,7 +61,7 @@ await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quo
 
 
 
-} catch(e) {
+}catch(e){
 console.log(e)
 reply(`${e}`)
 
