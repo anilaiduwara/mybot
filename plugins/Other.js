@@ -9,7 +9,7 @@ const config = require('../config');
 cmd({
     pattern: "gpass",
     desc: "Generate a strong password.",
-    category: "other",
+    category: "main",
     react: "🔐",
     use: '.gpass',
     filename: __filename
@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
         const password = generatePassword(length);
-        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*`;
+        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*`;
 
         // Send initial notification message
         await conn.sendMessage(from, { text: message }, { quoted: mek });
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 cmd({
     pattern: "srepo",
     desc: "Fetch information about a GitHub repository.",
-    category: "other",
+    category: "search",
     react: "📁",
     use: '.srepo <link>',
     filename: __filename
@@ -84,7 +84,7 @@ cmd({
     pattern: "weather",
     desc: "🌤 Get weather information for a location",
     react: "🌤",
-    category: "other",
+    category: "search",
     use: '.weather <place>',
     filename: __filename
 },
@@ -112,7 +112,7 @@ async (conn, mek, m, { from, q, reply }) => {
 💨 *Wind Speed*: ${data.wind.speed} m/s
 🔽 *Pressure*: ${data.main.pressure} hPa
 
-> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍* 🌦️
+> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - :  BLUE-LEAGUE-MD* 🌦️
 `;
 
         return reply(weather);
@@ -128,7 +128,7 @@ async (conn, mek, m, { from, q, reply }) => {
 cmd({
     pattern: "githubstalk",
     desc: "Fetch detailed GitHub user profile including profile picture.",
-    category: "other",
+    category: "download",
     react: "🖥️",
     use: '.githubstalk <link>',
     filename: __filename
@@ -144,7 +144,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let userInfo = `     🔍_*KENZI-MD GIT STALK*_🔎
+        let userInfo = `     🔍_*BLUE-LEAGUE-MD GIT STALK*_🔎
         
 👤 *Username*: ${data.name || data.login}
 🔗 *Github Url*:(${data.html_url})
@@ -155,7 +155,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 📅 *Created At*: ${new Date(data.created_at).toDateString()}
 🔭 *Public Gists*: ${data.public_gists}
 
-> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*
+> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*
 `;
 
         await conn.sendMessage(from, { image: { url: data.avatar_url }, caption: userInfo }, { quoted: mek });
@@ -166,7 +166,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 cmd({
-    pattern: "about1",
+    pattern: "about",
     desc: "To get the bot informations.",
     react: "ℹ️",
     category: "main",
@@ -176,13 +176,12 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let about = ` HELLOW THEIR ${senderNumber} I AM 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 WHATSAPP BOT 
-              CREATED BY KENZI-MD(DΛЯK ПΣӨП ᑕYBΣЯZ)..
+let about = ` HELLOW THEIR ${senderNumber} I AM BLUE-LEAGUE WHATSAPP-MD BOT 
+              CREATED BY 𝙖𝙣𝙞𝙡𝙖 𝙡𝙤𝙘𝙝𝙖𝙣𝙖
               
-              © *Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ* 🅥
-              *ɢɪᴛʜᴜʙ :* github.com/Danupa0
               
-              THANKS FOR USING KENZI-MD WHATSAPP BOT MD`
+              
+              THANKS FOR USING BLUE-LEAGUE-MD WHATSAPP BOT MD`
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})
 }catch(e){
 console.log(e)
@@ -192,11 +191,11 @@ reply(`${e}`)
 
 
 cmd({
-    pattern: "news1",
+    pattern: "news",
     desc: "Get the latest news headlines.",
-    category: "other",
+    category: "search",
     react: "📰",
-    use: '.news1',
+    use: '.news',
     filename: __filename
 },
 async (conn, mek, m, { from, reply }) => {
@@ -215,8 +214,8 @@ async (conn, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-*© Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥* 
-*💻 BOT NAME:* 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍  
+*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: 𝙖𝙣𝙞𝙡𝙖 𝙡𝙤𝙘𝙝𝙖𝙣𝙖* 
+ 
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
@@ -236,11 +235,11 @@ async (conn, mek, m, { from, reply }) => {
 });
 
 cmd({
-    pattern: "trt1",
+    pattern: "trt",
     desc: "🌍 Translate text between languages",
     react: "🌐",
-    category: "other",
-    use: '.trt1 <word>',
+    category: "convert",
+    use: '.trt <word>',
     filename: __filename
 },
 async (conn, mek, m, { from, q, reply }) => {
@@ -263,7 +262,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*`;
+> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - :BLUE-LEAGUE-MD*`;
 
         return reply(translationMessage);
     } catch (e) {
@@ -276,7 +275,7 @@ cmd({
     pattern: "fact",
     desc: "🧠 Get a random fun fact",
     react: "🤓",
-    category: "fun",
+    category: "main",
     use: '.fact',
     filename: __filename
 },
@@ -305,7 +304,7 @@ Isn't that interesting? 😄
 cmd({
     pattern: "dog",
     desc: "Fetch a random dog image.",
-    category: "fun",
+    category: "main",
     react: "🐶",
     use: '.dog',
     filename: __filename
@@ -316,7 +315,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.message }, caption: '🐶 *Random Dog Image* 🐶\n> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.message }, caption: '🐶 *Random Dog Image* 🐶\n> *❤️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error fetching dog image: ${e.message}`);
@@ -326,7 +325,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 cmd({
     pattern: "rvideo",
     desc: "Fetch and send a random video from Pexels.",
-    category: "fun",
+    category: "main",
     react: "🎥",
     use: '.rvideo',
     filename: __filename
@@ -356,8 +355,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         writer.on('finish', async () => {
             await conn.sendMessage(from, { text: '✅ *Your video has been successfully downloaded!* ✅' }, { quoted: mek });
-            await conn.sendMessage(from, { video: { url: videoPath }, caption: `🎥 *Random Pexels Video* 🎥\n\nTitle: ${videoTitle}\n> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*` }, { quoted: mek });
-
+            await conn.sendMessage(from, { video: { url: videoPath }, caption: `🎥 *Random Pexels Video* 🎥\n\nTitle: ${videoTitle}\n> *❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*` }, { quoted: mek });
             // Clean up
             fs.unlinkSync(videoPath);
         });
@@ -375,7 +373,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 cmd({
     pattern: "quote",
     desc: "Get a random inspiring quote.",
-    category: "fun",
+    category: "main",
     react: "💬",
     use: '.fun',
     filename: __filename
@@ -387,7 +385,7 @@ async (conn, mek, m, { from, reply }) => {
         const message = `
 💬 "${quote.content}"
 - ${quote.author}
-*🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍* QUOTES
+*🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD* QUOTES
         `;
         return reply(message);
     } catch (e) {
@@ -399,7 +397,7 @@ async (conn, mek, m, { from, reply }) => {
 cmd({
     pattern: "animegirl",
     desc: "Fetch a random anime girl image.",
-    category: "fun",
+    category: "convert",
     react: "👧",
     use: '.animegirl',
     filename: __filename
@@ -410,7 +408,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n> *🔮𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n> *❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - :  BLUE-LEAGUE-MD*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error fetching anime girl image: ${e.message}`);
@@ -466,7 +464,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*`
+            caption: `${movieInfo}\n> *❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
@@ -476,9 +474,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // 1. Shutdown Bot
 cmd({
-    pattern: "shutdown1",
+    pattern: "shutdown",
     desc: "Shutdown the bot.",
-    category: "owner",
+    category: "main",
     react: "🛑",
     use: '.shutdown1',
     filename: __filename
@@ -490,9 +488,9 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
 // 2. Broadcast Message to All Groups
 cmd({
-    pattern: "broadcast1",
+    pattern: "broadcast",
     desc: "Broadcast a message to all groups.",
-    category: "owner",
+    category: "main",
     react: "📢",
     use: '.broadcast1',
     filename: __filename
@@ -515,7 +513,7 @@ async (conn, mek, m, { from, isOwner, args, reply }) => {
 cmd({
     pattern: "setpp1",
     desc: "Set bot profile picture.",
-    category: "owner",
+    category: "main",
     react: "🖼️",
     use: '.setpp1',
     filename: __filename
@@ -537,7 +535,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 cmd({
     pattern: "block1",
     desc: "Block a user.",
-    category: "owner",
+    category: "main",
     react: "🚫",
     use: '.block1',
     filename: __filename
@@ -559,7 +557,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 cmd({
     pattern: "unblock1",
     desc: "Unblock a user.",
-    category: "owner",
+    category: "main",
     react: "✅",
     use: '.unblock1',
     filename: __filename
@@ -579,9 +577,9 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 // 6. Clear All Chats
 cmd({
-    pattern: "clearchats1",
+    pattern: "clearchats",
     desc: "Clear all chats from the bot.",
-    category: "owner",
+    category: "main",
     react: "🧹",
     use: '.clearchats1',
     filename: __filename
@@ -603,7 +601,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 cmd({
     pattern: "jid1",
     desc: "Get the bot's JID.",
-    category: "owner",
+    category: "main",
     react: "🤖",
     use: '.jid1',
     filename: __filename
@@ -617,7 +615,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 cmd({
     pattern: "gjid1",
     desc: "Get the list of JIDs for all groups the bot is part of.",
-    category: "owner",
+    category: "main",
     react: "📝",
     use: '.gjid1',
     filename: __filename
@@ -635,7 +633,7 @@ cmd({
     desc: "Convert an amount from one currency to another.",
     category: "convert",
     react: "💱",
-    use: '.convert1',
+    use: '.convert',
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -666,7 +664,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         conversionInfo += `🔄 *Converted Amount*: ${convertedAmount} ${toCurrency}\n`;
         conversionInfo += `📈 *Exchange Rate*: 1 ${fromCurrency} = ${data.rates[toCurrency]} ${toCurrency}\n
         
-> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*
+> *❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD 🤍*
         `;
 
         await conn.sendMessage(from, { text: conversionInfo }, { quoted: mek });
@@ -679,7 +677,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 cmd({
     pattern: "hack",
     desc: "Displays a dynamic and playful 'Hacking' message for fun.",
-    category: "fun",
+    category: "owner",
     react: "💻",
     use: '.hack',
     filename: __filename
@@ -713,7 +711,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '⚠️ *Note:* All actions are for demonstration purposes only.',
             '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
             '',
-            '> *KENZI-MD-HACKING-COMPLETE ☠️❕*'
+            '> *BLUE-LEAGUE-MD-HACKING-COMPLETE ☠️❕*'
         ];
 
         for (const line of steps) {
@@ -730,7 +728,7 @@ cmd({
     pattern: "joke",
     desc: "😂 Get a random joke",
     react: "🤣",
-    category: "fun",
+    category: "other",
     use: '.joke',
     filename: __filename
 },
@@ -747,8 +745,8 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-*© Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ* 
-*💻 GitHub:* github.com/Danupa0 `;
+*❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: 𝙖𝙣𝙞𝙡𝙖 𝙡𝙤𝙘𝙝𝙖𝙣𝙖* 
+ `;
 
         return reply(jokeMessage);
     } catch (e) {
@@ -761,7 +759,7 @@ cmd({
                              pattern: "define",
                              desc: "📚 Get the definition of a word",
                              react: "🔍",
-                             category: "other",
+                             category: "search",
                              filename: __filename
                          },
                          async (conn, mek, m, { from, q, reply }) => {
@@ -784,7 +782,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-> *🔮 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*`;
+> *❤️ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : BLUE-LEAGUE-MD*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
