@@ -10,7 +10,6 @@ cmd({
     pattern: "apk",
     react: "📱",
     alias: ["findapk","playstore"],
-    
     category: "download",
     use: '.apk whatsapp',
     filename: __filename
@@ -58,7 +57,7 @@ let buttons = [{
 
 ]
 
-let MNG = `\`✦ 𝗗𝗔𝗥𝗞 𝗦𝗛𝗨𝗧𝗘𝗥 𝗠𝗗 𝗩2 ✦\`
+let MNG = `\`𝙖𝙣𝙞𝙡𝙖 𝙡𝙤𝙘𝙝𝙖𝙣𝙖\`
 
       ❒ 𝗔𝗽𝗸 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 ❒
 
