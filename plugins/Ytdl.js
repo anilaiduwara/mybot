@@ -103,10 +103,10 @@ let down = await fg.yta(url)
 let downloadUrl= down.dl_url
 
 //send video message
-await conn.sendMessage(from, { video: { url: data.data.data.144p }, mimetype: "video/mp4", caption: `- 144p\n\n> ${cap}` }, { quoted: mek })
-await conn.sendMessage(from, { video: { url: data.data.data.360p }, mimetype: "video/mp4", caption: `- 360p \n\n> ${cap}` }, { quoted: mek })  
-await conn.sendMessage(from, { video: { url: data.data.data.720p },  mimetype: "video/mp4", caption: `- 720p \n\n> ${cap}` }, { quoted: mek })
-await conn.sendMessage(from, { video: { url: data.data.data.1080p }, mimetype: "video/mp4", caption: `- 1080p \n\n> ${cap}` }, { quoted: mek })
+await conn.sendMessage(from,{video: {url:downloadUrl}, mimetype: "video/mp4", caption: `- 144p \n\n> ${cap}` }, { quoted: mek })
+await conn.sendMessage(from,{video: {url:downloadUrl}, mimetype: "video/mp4", caption: `- 360p \n\n> ${cap}` }, { quoted: mek })  
+await conn.sendMessage(from,{video: {url:downloadUrl},  mimetype: "video/mp4", caption: `- 720p \n\n> ${cap}` }, { quoted: mek })
+await conn.sendMessage(from,{video: {url:downloadUrl}, mimetype: "video/mp4", caption: `- 1080p \n\n> ${cap}` }, { quoted: mek })
 
 }catch(e){
 console.log(e)
