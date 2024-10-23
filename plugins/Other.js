@@ -416,11 +416,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 cmd({
-    pattern: "movie",
+    pattern: "imdb",
     desc: "Fetch detailed information about a movie.",
     category: "movie",
     react: "🎬",
-    use: '.movie',
+    use: 'imdb',
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -555,7 +555,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 // 5. Unblock User
 cmd({
-    pattern: "unblock1",
+    pattern: "unblock",
     desc: "Unblock a user.",
     category: "main",
     react: "✅",
@@ -599,7 +599,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
 // 7. Get Bot JID
 cmd({
-    pattern: "jid1",
+    pattern: "jid",
     desc: "Get the bot's JID.",
     category: "main",
     react: "🤖",
@@ -613,7 +613,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
 // 8. Group JIDs List
 cmd({
-    pattern: "gjid1",
+    pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
     category: "main",
     react: "📝",
@@ -629,7 +629,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 });
 
 cmd({
-    pattern: "convert1",
+    pattern: "convert",
     desc: "Convert an amount from one currency to another.",
     category: "convert",
     react: "💱",
