@@ -18,23 +18,24 @@ group: '',
 owner: '',
 convert: '',
 search: '',
+other: '',
 movie: ''
 };
 
 for (let i = 0; i < commands.length; i++) {
 if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `.${config.PREFIX}${commands[i].pattern}\n`;
+menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
  }
 }
     
 let madeMenu =`*hello ${pushname}*
 
-> *DOWNLOAD COMMANDS*
-${menu.download}
-
 > *MAIN COMMANDS*
 &{menu.main}
-    
+
+> *DOWNLOAD COMMANDS*
+${menu.download}
+   
 > *GROUP COMMANDS*
 ${menu.group}
 
@@ -47,10 +48,13 @@ ${menu.convert}
 > *SEARCH COMMANDS*
 ${menu.search}
 
+> *OTHER COMMAND*
+${menu.other}
+
 > *MOVIE COMMANDS*
 ${menu.movie}
 
-POWERD BY ANILA LOCHANA
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝕒𝕟𝕚𝕝𝕒 𝕝𝕠𝕔𝕙𝕒𝕟𝕒 🗿
 
 `
 
