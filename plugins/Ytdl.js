@@ -103,8 +103,10 @@ let down = await fg.yta(url)
 let downloadUrl= down.dl_url
 
 //send video message
-await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4,caption: 💻MADE BY ANILA LOCHANA💻",fileName:data.title + ".mp4" },{quoted:mek})
+await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- 144p\n\n> ${cap}` }, { quoted: mek })
+await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- 360p \n\n> ${cap}` }, { quoted: mek })  
+await conn.sendMessage(from, { video: { url: data.data.data.HD },  mimetype: "video/mp4", caption: `- 720p \n\n> ${cap}` }, { quoted: mek })
+await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- 1080p \n\n> ${cap}` }, { quoted: mek })
 
 }catch(e){
 console.log(e)
